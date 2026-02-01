@@ -223,20 +223,20 @@
                 </div>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
                 <div class="input-box">
                     <p>Name</p>
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" name="name" placeholder="Name" required>
                 </div>
 
                 <div class="input-box">
                     <p>Email</p>
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="input-box">
                     <p>Message</p>
-                    <textarea placeholder="Message" required></textarea>
+                    <textarea name="message" placeholder="Message" required></textarea>
                 </div>
 
                 <button type="submit">Send Message</button>
@@ -249,4 +249,5 @@
     </footer>
 
 </body>
+
 </html>
